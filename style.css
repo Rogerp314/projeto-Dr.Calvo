@@ -1,0 +1,173 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'comic';
+    src: url('fonts/comic-sans-ms-4.ttf') format('truetype');
+}
+
+body{
+    background-image: url('imagens/background.png');
+    background-repeat: round;
+    font: normal 1em 'comic', sans-serif;
+}
+h1{
+    text-align: center;
+    font: bold 112px Times, serif;
+    color: white;
+    position: relative;
+    top: -40px;
+}
+h2{
+    text-align: center;
+    position: relative;
+    top: -120px;
+    font: normal 40px 'comic', sans-serif;
+    color: #fff54f; 
+}
+main{
+    font: bold 25px 'comic', sans-serif;
+    text-align: justify;
+    color: #fff54f;
+}
+#botton{
+    cursor: pointer;
+    text-align: center;
+    margin: auto;
+    width: 325px;
+}
+#evandro{
+    text-align: center;
+    position: relative;
+    top: -150px;
+}
+#doacao{
+    background-color: black;
+    width: 855px;
+    height: 197px;
+    text-align: center;
+    margin: auto;
+}
+#tex{
+    position: relative;
+    top: 20px;
+    color: white;
+    font: normal 700 25px 'comic', 'sans-serif';
+}
+.as{
+    color: #fff54f;
+    font: normal 700 25px 'comic', 'sans-serif';
+}
+.save{
+    text-align: center;
+    padding: 35px;
+}
+#filho{
+    margin: auto;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+}
+ul, li{
+    display: inline;
+}
+img{
+    border: none;
+}
+#prin{
+    margin: 1em 525px;
+    font-size: 25px;
+}
+#sec{
+    margin: 1em 525px;
+    font-size: 21px;
+}
+#quatro{
+    position: relative;
+    top: 30px;
+}
+#um{
+    position: relative;
+    top: -150px;
+    left: 525px;
+    padding: 10px;
+}
+#dois{
+    position: relative;
+    top: -177px;
+    left: 525px;
+    padding: 10px;
+}
+#tres{
+    position: relative;
+    top: -125px;
+    left: 525px;
+    padding: 10px;
+}
+#calvo:hover::after{
+    content: ' Calvo';
+    color: red;
+    text-decoration: line-through black;
+}
+#calvo{
+    cursor: pointer;
+}
+a{
+    color: white;
+}
+#link{
+    position: relative;
+    left: 0px;
+    width: 525px;
+    font-size: 16px;
+    margin: auto;
+}
+#contato{
+    margin-right: 40px;
+}
+#termo{
+    margin-right: 20px;
+}
+#politica{
+    margin-left: 25px;
+}
+#copy{
+    text-align: center;
+    font-size: 12px;
+}
+#pnguno{
+    position: relative;
+    left: 625px;
+}
+#facecu{
+    position: relative;
+    left: 875px;
+}
+.textobranco{
+    margin: 1em 525px;
+    font-size: 21px;
+    color: white;
+}
+#doente{
+    text-align: center;
+    font-size: 42px;
+    margin: 0px;
+}
+#esquerda{
+    position: relative;
+    top: 135px;
+    left: 650px;
+}
+#direita{
+    position: relative;
+    top: 135px;
+    left: 1130px;
+}
+#cancer{
+    text-align: center;
+    font-size: 42px;
+}
+#ajuda{
+    text-align: center;
+    font-size: 42px;
+    color: #ffe107;
+}
