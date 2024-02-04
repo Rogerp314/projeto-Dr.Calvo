@@ -63,11 +63,16 @@ main{
 #filho{
     margin: auto;
 }
+#lista{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
 ul{
     list-style-type: none;
-    margin: 0;
+    columns: 2;
 }
-ul, li{
+li{
     display: inline;
 }
 img{
@@ -82,26 +87,13 @@ img{
     font-size: 21px;
 }
 #quatro{
-    position: relative;
-    top: 30px;
 }
 #um{
-    position: relative;
-    top: -150px;
-    left: 525px;
-    padding: 10px;
+
 }
 #dois{
-    position: relative;
-    top: -177px;
-    left: 525px;
-    padding: 10px;
 }
 #tres{
-    position: relative;
-    top: -125px;
-    left: 525px;
-    padding: 10px;
 }
 #calvo:hover::after{
     content: ' Calvo';
@@ -135,12 +127,12 @@ a{
     font-size: 12px;
 }
 #pnguno{
-    position: relative;
-    left: 625px;
+    display: block;
+    margin: 0px 865px 0px auto;
 }
 #facecu{
-    position: relative;
-    left: 875px;
+    display: block;
+    margin: -260px 400px 0px auto;
 }
 .textobranco{
     margin: 1em 525px;
