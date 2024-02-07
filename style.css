@@ -63,17 +63,26 @@ main{
 #filho{
     margin: auto;
 }
-#lista{
-    width: 100%;
-    display: block;
-    margin: auto;
-}
 ul{
     list-style-type: none;
-    columns: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -90px;
 }
 li{
     display: inline;
+}
+#um{
+    padding-right: 125px;
+}
+#dois{
+    padding-right: 130px;
+}
+#quatro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 img{
     border: none;
@@ -85,15 +94,6 @@ img{
 #sec{
     margin: 1em 525px;
     font-size: 21px;
-}
-#quatro{
-}
-#um{
-
-}
-#dois{
-}
-#tres{
 }
 #calvo:hover::after{
     content: ' Calvo';

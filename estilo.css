@@ -1,0 +1,22 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'comic';
+    src: url('fonts/comic-sans-ms-4.ttf') format('tuetype');
+}
+
+body{
+    background-image: url('imagens/background.png');
+}
+#gay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font: italic bold 2em 'comic';
+    text-align: center;
+}
+#maior{
+    color: red;
+    text-decoration: underline;
+}
